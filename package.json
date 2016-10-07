@@ -1,5 +1,5 @@
 {
-  "name": "homebridge-sysctl",
+  "name": "homebridge-temperature-sysctl",
   "version": "1.0.1",
   "description": "sysctl temperature sensor plugin for Homebridge",
   "main": "sysctl.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/rxseger/homebridge-sysctl.git"
+    "url": "git://github.com/rxseger/homebridge-temperature-sysctl.git"
   },
   "keywords": [
     "homebridge-plugin",
@@ -18,13 +18,13 @@
   "author": "rxseger",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rxseger/homebridge-sysctl/issues"
+    "url": "https://github.com/rxseger/homebridge-temperature-sysctl/issues"
   },
   "engines": {
     "node": ">=6.0.0",
     "homebridge": ">=0.2.0"
   },
-  "homepage": "https://github.com/rxseger/homebridge-sysctl#readme",
+  "homepage": "https://github.com/rxseger/homebridge-temperature-sysctl#readme",
   "dependencies": {
     "sysctl": "0.0.1",
     "undotpath": "^1.0.0"

@@ -9,10 +9,10 @@ module.exports = (homebridge) => {
   Service = homebridge.hap.Service;
   Characteristic = homebridge.hap.Characteristic;
 
-  homebridge.registerAccessory('homebridge-sysctl', 'sysctl', SysctlPlugin);
+  homebridge.registerAccessory('homebridge-sysctl', 'temperature-sysctl', TemperatureSysctlPlugin);
 };
 
-class SysctlPlugin
+class TemperatureSysctlPlugin
 {
  constructor(log, config) {
     this.log = log;
