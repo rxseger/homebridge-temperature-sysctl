@@ -12,6 +12,7 @@
   },
   "keywords": [
     "homebridge-plugin",
+    "temperature",
     "sysctl"
   ],
   "author": "rxseger",
@@ -23,5 +24,9 @@
     "node": ">=6.0.0",
     "homebridge": ">=0.2.0"
   },
-  "homepage": "https://github.com/rxseger/homebridge-sysctl#readme"
+  "homepage": "https://github.com/rxseger/homebridge-sysctl#readme",
+  "dependencies": {
+    "sysctl": "0.0.1",
+    "undotpath": "^1.0.0"
+  }
 }
