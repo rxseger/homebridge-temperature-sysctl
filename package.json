@@ -2,7 +2,7 @@
   "name": "homebridge-temperature-sysctl",
   "version": "1.0.1",
   "description": "sysctl temperature sensor plugin for Homebridge",
-  "main": "sysctl.js",
+  "main": "temperature-sysctl.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
